@@ -152,11 +152,12 @@ Yolo 의 한계로 인해
 
 - map 제작의 한계
 
-![a. YoloTurtle 패키지에서 나온 토픽으로 제작한 지도 (sports ball)](./photo/Untitled%2012.png) {: width="100" height="100"}
+![a. YoloTurtle 패키지에서 나온 토픽으로 제작한 지도 (sports ball)]() 
+<img src="./photo/Untitled%2012.png" alt="Image" style="width:100px;height:100px;">
 
-a. YoloTurtle 패키지에서 나온 토픽으로 제작한 지도 (sports ball)
+![b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)]()
+<img src="./photo/Untitled%2013.png" alt="Image" style="width:100px;height:100px;">
 
-![b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)](./photo/Untitled%2013.png){:height="36px" width="36px"}.
 
 b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)
 
