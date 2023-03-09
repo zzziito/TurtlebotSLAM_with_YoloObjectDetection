@@ -158,8 +158,6 @@ a. YoloTurtle 패키지에서 나온 토픽으로 제작한 지도 (sports ball)
 <img src="./photo/Untitled%2013.png" alt="Image" style="width:250px;height:250px;">
 b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)
 
-b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)
-
 (a) 와 같이 일부분의 거리 데이터만으로 제작한 지도는 형태가 흐트러져 물체와 닮지 않게 나오는 것을 볼 수 있다. 따라서 본 연구에서는 패키지를 통해 나온 지도를 물체의 위치만 참조하는 용도로 사용할 수 밖에 없었다. 
 
 ## 5. Dependencies
