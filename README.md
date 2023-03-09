@@ -156,7 +156,7 @@ Yolo 의 한계로 인해
 
 a. YoloTurtle 패키지에서 나온 토픽으로 제작한 지도 (sports ball)
 
-![b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)](./photo/Untitled%2013.png) {: width="100px" height="100px"}
+![b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)](./photo/Untitled%2013.png){:height="36px" width="36px"}.
 
 b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)
 
