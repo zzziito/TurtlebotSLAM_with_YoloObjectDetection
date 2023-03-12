@@ -1,6 +1,6 @@
 # Turtlebot SLAM with Yolo Object Detection
 
-2022년 경희대학교 소프트웨어융합학과 로봇비전트랙 캡스톤디자인 : 박지원
+2022년 2학기 경희대학교 소프트웨어융합학과 로봇비전트랙 캡스톤디자인 : 박지원
 
 ## 요약
 
@@ -8,6 +8,29 @@
 해결하기 위해서 단안 카메라와 Yolo Object Detection 을 추가로 이용해 ROS 좌표계 변환을 통해 
 물체의 이름을 포함하는 2D 지도를 제작하였다.    
 > 
+
+## Dependencies
+
+### Software Dependencies
+
+- ROS Melodic
+- darknet_ros
+- OpenCV
+- Gmapping SLAM
+- Turtlebot3
+- usb_cam
+
+### 사용 장비
+
+- Turtlebot3 Waffle Pi
+- Nvidia Jetson nano Developer Kit
+- Logitech webcam
+- ASUS Laptop with RTX3070
+
+### Dataset 
+
+
+
 
 ## 목차
 
@@ -160,25 +183,8 @@ b. 기존 Gmapping SLAM 으로 제작한 지도 (sports ball)
 
 (a) 와 같이 일부분의 거리 데이터만으로 제작한 지도는 형태가 흐트러져 물체와 닮지 않게 나오는 것을 볼 수 있다. 따라서 본 연구에서는 패키지를 통해 나온 지도를 물체의 위치만 참조하는 용도로 사용할 수 밖에 없었다. 
 
-## 5. Dependencies
 
-### 5-1. Software Dependencies
-
-- ROS Melodic
-- darknet_ros
-- OpenCV
-- Gmapping SLAM
-- Turtlebot3
-- usb_cam
-
-### 5-2. 사용 장비
-
-- Turtlebot3 Waffle Pi
-- Nvidia Jetson nano Developer Kit
-- Logitech webcam
-- ASUS Laptop with RTX3080
-
-## 6. 향후 기대 효과 및 활용 방안
+## 5. 향후 기대 효과 및 활용 방안
 
 - 기대 효과
 
