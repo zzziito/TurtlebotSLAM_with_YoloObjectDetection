@@ -1,0 +1,16 @@
+<launch>
+
+  <param name="/use_sim_time" value="true" />
+  <node pkg="tf" type="static_transform_publisher" name="link_name" args="0 0.15 0 -1.91986 0 0 base_scan camera 1" />
+
+  <node name="yoloturtle" pkg="yoloturtle" type="yoloturtle_node" output="screen">
+    <remap from="image" to="/image_raw" />
+    <remap from="laser_scan" to="/scan" />
+    <remap from="bounding_boxes" to="/darknet_ros/bounding_boxes" />
+    <remap from="camera_info" to="/camera_info" />
+  </node>
+
+  <!-- <node name="re_time_stamp_node" pkg="re_time_stamp" type="re_time_stamp.cpp" /> -->
+
+
+</launch>
